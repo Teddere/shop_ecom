@@ -47,7 +47,7 @@
               <i class="fa-solid fa-search"></i>
             </a>
           </li>
-          <li class="nav-icon-btn dd-md-none">
+          <li class="nav-icon-btn d-md-none">
             <button id="nav-toggle" type="button" v-on:click="showMenu = !showMenu">
               <i class="fa-solid fa-bars"></i>
             </button>
@@ -225,6 +225,7 @@
       .nav-main .main-content {
         .nav-menu {
           position: static;
+          height: auto;
           .menu-item {
             border: none;
             margin: 0 calc($size - 6px);

@@ -1,3 +1,6 @@
-mercibil/__pycache__/
-mercibil/media/
-mercibil/db.sqlite3
+./mercibil/__pycache__/
+./mercibil/media/
+./mercibil/db.sqlite3
+
+.product/__pycache__/
+__pycache__
