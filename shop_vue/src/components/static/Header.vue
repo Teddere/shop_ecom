@@ -18,7 +18,7 @@
     <nav class="nav-main container-lg"><!-- start nav main -->
       <div class="main-content d-flex align-items-center justify-content-between">
         <a href="#" class="logo">
-          <img src="/assets/logo.png" alt="LOGO-WEBSITE">
+          <img :src="require('@/assets/logo/logo.png')" alt="LOGO-WEBSITE">
         </a>
         <ul id="nav-list" v-bind:class="{'show':showMenu}" class="nav-menu d-md-flex justify-content-md-center align-items-md-center overflow-hidden">
           <li class="menu-item"><a href="#" class="menu-link">Bijoux</a></li>
